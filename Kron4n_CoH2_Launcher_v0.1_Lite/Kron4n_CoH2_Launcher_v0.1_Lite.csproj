@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<ApplicationIcon>Resources\K2.ico</ApplicationIcon>
+		<AssemblyName>Kron4n_CoH2_Launcher_v0.1_Lite</AssemblyName>
+		<RootNamespace>Kron4n_CoH2_Launcher</RootNamespace>
+
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>false</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\K2.ico" LogicalName="K2.ico" />
+		<EmbeddedResource Include="Resources\Kron4n_Header.png" LogicalName="Kron4n_Header.png" />
+	</ItemGroup>
+
+</Project>
